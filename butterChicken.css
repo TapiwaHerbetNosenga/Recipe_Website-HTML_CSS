@@ -1,0 +1,158 @@
+#butterChicken{
+    width: 250px;
+    height: 150px;
+    position: relative;
+    border-radius: 10%;
+    
+    
+}
+
+#headImg{
+    display:flex;
+    justify-content: center;
+}
+
+#shortcuts{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.shortItem{
+    background-color: #a3d2d6;
+    font-size: 1em;
+    padding:1vw;
+}
+
+h1,
+h2,
+h3,
+h4
+
+ {
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color:#3e3e3e;
+   
+  
+}
+li,
+p{
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color:#3e3e3e;
+font-size: 1em;
+}
+
+a{
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  color:#3e3e3e;
+  font-size: 1em;
+}
+
+article{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-weight: 500;
+    font-size:1em;
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2.5em;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.25em;
+}
+h5{
+    font-size: 1em;
+}
+
+#butChkPanLrg{
+    position:relative;
+    width: 100%;
+    height: 366px;;
+
+}
+
+#butChkPan{
+    position: relative;
+    width: 100%;
+    height:183px;
+}
+
+iframe{
+    border:none;
+    width:100%;
+}
+#vidJump{
+    border:none;
+}
+
+#recipeBox{
+    display:grid;
+    grid-template-areas: 
+    "row1"
+    "row2"
+    "row3";
+    grid-template-rows: 60px auto auto;
+    grid-template-columns: 1fr;
+    height:auto;
+    grid-gap:2vw;
+    background-color:#9b9b9b;
+    margin-top: 80px;
+
+   
+}
+
+#Row1{
+    grid-area: row1;
+    display: flex;
+    justify-content: center;
+}
+
+#Row2{
+    grid-area: row2;
+    text-align: center;
+    padding:4vw;  
+}
+
+#Row3{
+    grid-area: row3;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+#recHead{
+    position:relative;
+    border:solid #ffffff 5px;
+    border-radius: 50%;
+    bottom:50px;
+}
+
+#recBox > div{
+    text-align: center;
+}
+
+#Row2 h3{
+    color:white;
+
+}
+
+#Row2 p{
+    color:white;
+}
+
+
+
